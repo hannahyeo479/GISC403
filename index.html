@@ -1,0 +1,48 @@
+<!-- ==============================================================
+
+	Name: Hannah Yeo
+	Date: 26/03/2024
+	Email: hmy17@uclive.ac.nz	
+	Description: Web Map of Bucket List Walks in NZ
+
+============================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CHANGE YOUR MAP TITLE TO SOMETHING BETTER -->
+	<title>Hannah's Bucket List Walks</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+
+	<link rel="stylesheet" href="main.css" />
+
+	
+</head>
+<body>
+
+
+<div id="header">
+	<!-- EDIT THE HEADER HERE -->
+	<center>Bucket List Walks in New Zealand</center>
+</div>
+<div id="map"></div>
+
+<div id="description">
+	<!-- EDIT THE DESCRIPTION HERE -->
+	Presented in this web map is a collection of walks throughout New Zealand that are on my bucket list, symbolised by point markers that have their location georeferenced by the coordinates of the mountain peaks to the base map. There is also a rectangular polygon to visualise the area covered by the Milford Track as well as a thick red line to symbolise the entire route. The thick bright blue polygon border was chosen to distinguish it from the Territory Authority polygons which are the thinner green boundary lines. <br><br> By clicking on each point marker or the polygon region, pop-up text is displayed which describes each walk’s significance of why they are on the bucket list. Elevation above sea level (in metres) is included for each of the six peaks and walking distance (in kilometres) for the Milford Track.
+
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

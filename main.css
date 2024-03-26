@@ -1,0 +1,36 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+body {
+	position: absolute;
+	background-color: #D5F5E3;
+	height: calc(100% - 200px);
+	top: 0px;
+	margin: 0;
+	width: 100%;
+}
+
+.leaflet-container {
+	height: 400px;
+	width: 600px;
+	max-width: 100%;
+	max-height: 100%;
+}
+#map {
+	width: 100%;
+	height: 100%;
+}
+#header{
+	height: 50px;
+	font-weight: bold;
+	font-size: 20pt;
+	font-style: italic;
+	font-family: helvetica, sans-serif;
+	margin:10px;
+}
+#description{
+	margin:20px;
+	font-size: 10pt;
+	font-family: helvetica, sans-serif;
+}
